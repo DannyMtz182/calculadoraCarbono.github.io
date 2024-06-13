@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Huella de Carbono</title>
+</head>
+
+<body>
+    <div class="encabezado">
+        <h1>Calculadora de Huella de Carbono CUCEA</h1>
+        <form id="carbonoFormu">
+            <label for="electricidad">Consumo mensual de electricidad (kwh):</label>
+            <input type="number" id="electricidad" name="electricidad" required>
+
+            <label for="transporte">Kilómetros que recorres en un año en auto:</label>
+            <input type="number" id="transporte" name="transporte" required>
+
+            <label for="residuos">Kilogramos de residuos que generas anualmente:</label>
+            <input type="number" id="residuos" name="residuos">
+
+            <button type="button" id="botonCalc">Calcular tu Huella de Carbono</button>
+        </form>
+    </div>
+
+    <div class="results" id="results">
+        <!-- Los resultados se mostrarán aquí -->
+    </div>
+
+    <script src="scrpt.js"></script>
+</body>
+
+<footer>
+    <p>Calculadora de Huella de Carbono CUCEA 2024 &copy;</p>
+    <p2>Daniel Isaí Martinez Flores</p2></footer>
+</html>
